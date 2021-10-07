@@ -29,7 +29,7 @@
 						</li>
 						<li>
 							<span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-							<span class="icon">Баян гол дүүрэг</span>
+							<span class="icon">Баянгол дүүрэг</span>
 						</li>
 						<li>
 							<span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
