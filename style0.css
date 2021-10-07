@@ -1,0 +1,159 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	background: lightgoldenrodyellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+}
+.ehlel{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	margin: 50px;
+	background: lightcoral;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+ .ehlel .zuun{
+	position: relative;
+	background: lightcoral;
+	padding: 40px;
+}
+.ehlel .baruun{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+
+.img{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 80%;
+	overflow: hidden;
+	align-items: center;
+}
+.img img{
+position: absolute;
+top: 0;
+left: 0;
+align-items: center;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.nuurug .bichih {
+position: relative;
+weight: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+.bichih h3{
+
+}
+.bichih{
+	padding-top: 40px;
+}
+.text{
+	color: white ;
+	text-transform: uppercase;
+	font-weight: 1px;
+	margin-bottom: 20px;
+}
+
+.icon{
+position: relative;
+list-style: none;
+margin: 10px 0;
+cursor: pointer;
+color: white;
+font-weight: 200px;
+}
+.education h5{
+	color: #03a9f4;
+font-weight: 500;
+}
+
+.education h4{
+	color: white;
+	font-weight: 300;
+}
+.language .percent{
+position: relative;
+width: 100%;
+height: 6px;
+background: black;
+display: block;
+margin-top: 5px;
+}
+.language .percent div{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	background: white;
+
+}
+.about .box {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0;
+}
+.about .box .text1 h4{
+	text-transform: uppercase;
+	color: lightpink;
+	font-weight: 600;
+}
+.about .box .text1 h4{
+	text-transform: uppercase;
+	color: hotpink;
+	font-size: 16px;
+}
+.skills .box{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	justify-content: center;
+	align-items: center;
+}
+.skills .box .percent{
+	position: relative;
+	width: 100%;
+	height: 10px;
+	background: black;
+}
+.skills .box .percent div{
+	position: absolute;
+	top: 0;
+	lefth: 0;
+	height: 100%;
+	background: lightcoral;
+}
+.nuurug h2{
+	color: white;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+
+}
+.nuurug {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
